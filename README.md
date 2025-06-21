@@ -5,12 +5,12 @@
 ![](https://img.shields.io/github/stars/Radulepy/mcp-ai-agents-template)
 ![](https://img.shields.io/github/license/Radulepy/mcp-ai-agents-template)
 
-# Multi-Agent AI Playground
+# Model Context Protocol - Multi Agents Template
 
 **MCP (Model Context Protocol) · Multi-Agent Orchestration · AI Automation Platform**
 
-Welcome to the Multi-Agent AI Playground, a modern platform for **multi-agent orchestration**, **AI workflow automation**, and **context-aware LLM integration**. Built on the Model Context Protocol (MCP), this project enables seamless communication between AI agents, tools, and orchestrators, making it easy to automate complex tasks and connect multiple AI models and APIs in a single, extensible system.  
-With a modular architecture and a real-time React UI, MCP is ideal for experimenting with agent-based AI, building custom automations, and visualizing agent-tool interactions.
+This is A **Model Context Protocol (MCP)**  Example Template that orchestrates **Multiple AI Agents** (OpenAi, Gemini, Llama, ...) and gives them access to tools like: Email, Calendar, Knowledge-Base and more, a modern. Built on the Model Context Protocol (MCP), this project enables seamless communication between AI agents, tools, and orchestrators, making it easy to automate complex tasks and connect multiple AI models and APIs in a single, extensible system.  
+With a modular architecture and a real-time React UI Visualisation, MCP is ideal for experimenting with agent-based AI, building custom automations, and visualizing agent-tool interactions.
 
 [Check the DEMO video here:](https://www.youtube.com/shorts/WPVdnC2xRaU)
 
