@@ -33,6 +33,8 @@ Create a `.env` file in the root with your OpenAI key:
 
 ```
 OPENAI_API_KEY=sk-...
+CLIENT_ID=your_client_id_here
+CLIENT_SECRET=your_client_secret_here
 ```
 
 ### 3. **Google Tools Setup (Optional but Recommended)**
