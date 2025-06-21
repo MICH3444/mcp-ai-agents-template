@@ -12,6 +12,8 @@
 Welcome to the Multi-Agent AI Playground, a modern platform for **multi-agent orchestration**, **AI workflow automation**, and **context-aware LLM integration**. Built on the Model Context Protocol (MCP), this project enables seamless communication between AI agents, tools, and orchestrators, making it easy to automate complex tasks and connect multiple AI models and APIs in a single, extensible system.  
 With a modular architecture and a real-time React UI, MCP is ideal for experimenting with agent-based AI, building custom automations, and visualizing agent-tool interactions.
 
+[Check the DEMO video here:](https://www.youtube.com/shorts/WPVdnC2xRaU)
+
 [![Watch the demo](https://img.youtube.com/vi/WPVdnC2xRaU/hqdefault.jpg)](https://www.youtube.com/shorts/WPVdnC2xRaU)
 ---
 
