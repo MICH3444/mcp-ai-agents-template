@@ -1,0 +1,43 @@
+{
+  "name": "multi-agent-ai-playground",
+  "version": "1.0.0",
+  "main": "hub.js",
+  "scripts": {
+    "start-hub": "ts-node src/hub/hub.ts",
+    "start-routing": "ts-node src/agents/routing/tool-routing-agent.ts",
+    "start-agent-openai": "ts-node src/agents/agent-openai.ts",
+    "start-agent-gemini": "ts-node src/agents/agent-gemini.ts",
+    "start-tool-gmail": "ts-node src/agents/tools/google-email-template.ts",
+    "start-tool-gcalendar": "ts-node src/agents/tools/google-calendar.ts",
+    "start-tool-knowledge-base": "ts-node src/agents/tools/knowledge-base.ts",
+    "google-auth": "ts-node src/utils/get-google-token.ts",
+    "client": "cd client && npm run dev"
+  },
+  "dependencies": {
+    "@googleapis/gmail": "^13.0.1",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.1.0",
+    "googleapis": "^150.0.1",
+    "openai": "^4.45.0",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "@types/ws": "^8.18.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
